@@ -1,3 +1,8 @@
+---
+tags:
+- LTX,
+- LTX-2,
+---
 
 The workflows are based on the extracted models from https://huggingface.co/Kijai/LTXV2_comfy 
 The extracted models runs easier on the computer (as separate files), as well as GGUF support etc
