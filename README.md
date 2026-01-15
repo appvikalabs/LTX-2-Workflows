@@ -1,7 +1,9 @@
 ---
 tags:
-- LTX,
-- LTX-2,
+- ltx
+- ltx-2
+- comfyui
+- comfy
 ---
 
 The workflows are based on the extracted models from https://huggingface.co/Kijai/LTXV2_comfy 
