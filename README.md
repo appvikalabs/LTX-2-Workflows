@@ -22,5 +22,7 @@ LTX-Video node workflows:  https://github.com/Lightricks/ComfyUI-LTXVideo/tree/m
 
 
 Runninghub (can download workflow to use locally): 
+
 LTX-2 Controlnet (pose, depth etc)  https://www.runcomfy.com/comfyui-workflows/ltx-2-controlnet-in-comfyui-depth-controlled-video-workflow 
+
 LTX-2 First Last Frame  https://www.runcomfy.com/comfyui-workflows/ltx-2-first-last-frame-in-comfyui-audio-visual-motion-control
