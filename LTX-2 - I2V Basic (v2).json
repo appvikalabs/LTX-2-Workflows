@@ -3397,13 +3397,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "LTX-2_00157-audio.mp4",
+            "filename": "LTX-2_00158-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 25,
-            "workflow": "LTX-2_00157.png",
-            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00157-audio.mp4"
+            "workflow": "LTX-2_00158.png",
+            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00158-audio.mp4"
           }
         }
       }
@@ -3490,65 +3490,6 @@
       "ndPowerEnabled": false
     },
     {
-      "id": 134,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        -1398.8079143875211,
-        3687.567891979035
-      ],
-      "size": [
-        350.9069033720766,
-        82
-      ],
-      "flags": {},
-      "order": 56,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 484
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            451
-          ]
-        }
-      ],
-      "title": "Distill Lora (ONLY if you use DEV model)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "models": [
-          {
-            "name": "ltx-2-19b-distilled-lora-384.safetensors",
-            "url": "https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-lora-384.safetensors",
-            "directory": "loras"
-          }
-        ]
-      },
-      "widgets_values": [
-        "LTX\\v2\\ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_bf16.safetensors",
-        0.6
-      ],
-      "color": "#1f1f48",
-      "bgcolor": "rgba(24,24,27,.9)",
-      "ndSuperSelectorEnabled": false,
-      "ndPowerEnabled": false
-    },
-    {
       "id": 197,
       "type": "UnetLoaderGGUF",
       "pos": [
@@ -3619,6 +3560,65 @@
       "widgets_values": [
         "LTXVideo\\v2\\ltx-2-19b-distilled-fp8_transformer_only.safetensors",
         "default"
+      ],
+      "color": "#1f1f48",
+      "bgcolor": "rgba(24,24,27,.9)",
+      "ndSuperSelectorEnabled": false,
+      "ndPowerEnabled": false
+    },
+    {
+      "id": 134,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        -1398.8079143875211,
+        3687.567891979035
+      ],
+      "size": [
+        350.9069033720766,
+        82
+      ],
+      "flags": {},
+      "order": 56,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 484
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            451
+          ]
+        }
+      ],
+      "title": "Distill Lora (ONLY if you use DEV model)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "LoraLoaderModelOnly",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "models": [
+          {
+            "name": "ltx-2-19b-distilled-lora-384.safetensors",
+            "url": "https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-lora-384.safetensors",
+            "directory": "loras"
+          }
+        ]
+      },
+      "widgets_values": [
+        "LTX\\v2\\ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_bf16.safetensors",
+        0.6
       ],
       "color": "#1f1f48",
       "bgcolor": "rgba(24,24,27,.9)",
@@ -4329,10 +4329,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1.4122927695245266,
+      "scale": 0.9646149645000527,
       "offset": [
-        1646.7057905056074,
-        -3242.953388196627
+        1822.1001260152239,
+        -3301.969431199314
       ]
     },
     "frontendVersion": "1.36.14",
