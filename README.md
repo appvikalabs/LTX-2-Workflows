@@ -17,4 +17,5 @@ The extracted models runs easier on the computer (as separate files), as well as
 More workflows :
 
 ComfyUI default workflows: https://docs.comfy.org/tutorials/video/ltx/ltx-2 
+
 LTX-Video node workflows:  https://github.com/Lightricks/ComfyUI-LTXVideo/tree/master/example_workflows  
