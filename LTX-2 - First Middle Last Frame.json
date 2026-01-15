@@ -1,8 +1,8 @@
 {
   "id": "3ab9121e-c652-4349-858a-65a4dde6ee75",
   "revision": 0,
-  "last_node_id": 71,
-  "last_link_id": 127,
+  "last_node_id": 72,
+  "last_link_id": 128,
   "nodes": [
     {
       "id": 1,
@@ -1960,43 +1960,6 @@
       ]
     },
     {
-      "id": 61,
-      "type": "Reroute",
-      "pos": [
-        2166.670431048187,
-        4621.569854817219
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 19,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 115
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "VAE",
-          "links": [
-            116,
-            117,
-            118
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 10,
       "type": "LTXVConditioning",
       "pos": [
@@ -2473,59 +2436,6 @@
       "widgets_values": [
         363,
         "fixed"
-      ]
-    },
-    {
-      "id": 62,
-      "type": "SimpleCalculatorKJ",
-      "pos": [
-        2254.0114655373036,
-        4935.395463350289
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 30,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "a",
-          "shape": 7,
-          "type": "*",
-          "link": 119
-        },
-        {
-          "name": "b",
-          "shape": 7,
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            120
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "93a4fba44c1635a716dc262f157a7ded7d716f3a",
-        "Node name for S&R": "SimpleCalculatorKJ"
-      },
-      "widgets_values": [
-        "a/2"
       ]
     },
     {
@@ -3050,42 +2960,6 @@
       "bgcolor": "#29699c"
     },
     {
-      "id": 68,
-      "type": "INTConstant",
-      "pos": [
-        3538.9798675601533,
-        4221.5031916272
-      ],
-      "size": [
-        210,
-        58
-      ],
-      "flags": {},
-      "order": 18,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "INT",
-          "links": [
-            124
-          ]
-        }
-      ],
-      "title": "LENGTH (frames)",
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "93a4fba44c1635a716dc262f157a7ded7d716f3a",
-        "Node name for S&R": "INTConstant"
-      },
-      "widgets_values": [
-        363
-      ],
-      "color": "#1b4669",
-      "bgcolor": "#29699c"
-    },
-    {
       "id": 26,
       "type": "ImageScaleBy",
       "pos": [
@@ -3131,6 +3005,132 @@
         "lanczos",
         0.5
       ]
+    },
+    {
+      "id": 61,
+      "type": "Reroute",
+      "pos": [
+        2154.12656593588,
+        4590.21019203645
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 115
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            116,
+            117,
+            118
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 62,
+      "type": "SimpleCalculatorKJ",
+      "pos": [
+        2254.0114655373036,
+        4935.395463350289
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": 119
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            120
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "93a4fba44c1635a716dc262f157a7ded7d716f3a",
+        "Node name for S&R": "SimpleCalculatorKJ"
+      },
+      "widgets_values": [
+        "ceil(a/2)"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "INTConstant",
+      "pos": [
+        3538.9798675601533,
+        4221.5031916272
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "INT",
+          "links": [
+            124
+          ]
+        }
+      ],
+      "title": "LENGTH (frames)",
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "93a4fba44c1635a716dc262f157a7ded7d716f3a",
+        "Node name for S&R": "INTConstant"
+      },
+      "widgets_values": [
+        364
+      ],
+      "color": "#1b4669",
+      "bgcolor": "#29699c"
     }
   ],
   "links": [
@@ -3974,10 +3974,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.2794145953766199,
+      "scale": 0.2794145953766202,
       "offset": [
-        158.98234745888976,
-        -2464.3317593242637
+        211.84195306053334,
+        -2852.881098638947
       ]
     },
     "frontendVersion": "1.36.14",
