@@ -18,12 +18,16 @@ Gemma 3 12B it GGUF text encoder:
 https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/
 
 Needed nodes:
+
 https://github.com/kijai/ComfyUI-KJNodes
+
 https://github.com/city96/ComfyUI-GGUF   
 
 
 -- -- 
-More workflows :
+
+
+More workflows:
 
 ComfyUI official workflows: https://docs.comfy.org/tutorials/video/ltx/ltx-2 
 
