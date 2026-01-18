@@ -30,6 +30,9 @@ https://github.com/city96/ComfyUI-GGUF
 https://www.reddit.com/r/StableDiffusion/comments/1qeovkh/ltx2_cinematic_love_letter_to_opensource_community/
 
 
+<video src="https://cdn-uploads.huggingface.co/production/uploads/64afc36a09727d75e9ca79aa/Sh9B_JKU5gu78Fr3uXEnH.mp4" controls autoplay loop muted width="100%"></video>
+(credit to https://www.reddit.com/user/tanzim31/)
+
 
 -- -- 
 
