@@ -27,6 +27,7 @@ https://github.com/city96/ComfyUI-GGUF
 <video src="https://cdn-uploads.huggingface.co/production/uploads/64afc36a09727d75e9ca79aa/442uH7jw-TrAfxGs5TU_9.mp4" controls autoplay loop muted width="100%"></video>
 
 (video made with LTX-2, Credit to https://www.reddit.com/user/fantazart/)
+https://www.reddit.com/r/StableDiffusion/comments/1qeovkh/ltx2_cinematic_love_letter_to_opensource_community/
 
 
 
