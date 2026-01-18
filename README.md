@@ -24,6 +24,10 @@ https://github.com/kijai/ComfyUI-KJNodes
 https://github.com/city96/ComfyUI-GGUF   
 
 
+
+https://cdn-uploads.huggingface.co/production/uploads/64afc36a09727d75e9ca79aa/IOmDfjqc6YWPeVF8MOtZm.mp4
+(video credit to https://www.reddit.com/user/fantazart/)
+
 -- -- 
 
 
