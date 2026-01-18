@@ -14,6 +14,14 @@ The extracted models runs easier on the computer (as separate files), as well as
 (but you can easily swap out the model loader for the ComfyUI default model loader if you want to load the checkpoint with "all in one" vae built-in etc) 
 
 
+Gemma 3 12B it GGUF text encoder:
+https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/
+
+Needed nodes:
+https://github.com/kijai/ComfyUI-KJNodes
+https://github.com/city96/ComfyUI-GGUF   
+
+
 -- -- 
 More workflows :
 
