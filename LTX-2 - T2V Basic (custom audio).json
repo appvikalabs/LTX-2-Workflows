@@ -1,8 +1,8 @@
 {
   "id": "e11d576b-55da-4908-8ebe-981b00324fc4",
   "revision": 0,
-  "last_node_id": 283,
-  "last_link_id": 521,
+  "last_node_id": 285,
+  "last_link_id": 523,
   "nodes": [
     {
       "id": 186,
@@ -18,7 +18,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 57,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -58,7 +58,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 53,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -98,7 +98,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 54,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -138,7 +138,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 47,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -265,7 +265,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 48,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -343,7 +343,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 55,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -383,7 +383,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 81,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -558,7 +558,7 @@
         176.42403565656787
       ],
       "flags": {},
-      "order": 50,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -647,7 +647,7 @@
         46
       ],
       "flags": {},
-      "order": 90,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -700,7 +700,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 72,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -740,7 +740,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 73,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -914,7 +914,7 @@
         98
       ],
       "flags": {},
-      "order": 52,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1042,7 +1042,7 @@
         150
       ],
       "flags": {},
-      "order": 91,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -1227,7 +1227,7 @@
         87.51930064941462
       ],
       "flags": {},
-      "order": 68,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -1268,7 +1268,7 @@
         91.65877613647535
       ],
       "flags": {},
-      "order": 75,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -1420,7 +1420,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 80,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -1488,7 +1488,7 @@
         136
       ],
       "flags": {},
-      "order": 74,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -1603,7 +1603,7 @@
         46
       ],
       "flags": {},
-      "order": 86,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -1652,7 +1652,7 @@
         46
       ],
       "flags": {},
-      "order": 79,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -1703,7 +1703,7 @@
         106
       ],
       "flags": {},
-      "order": 71,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -1772,7 +1772,7 @@
         106
       ],
       "flags": {},
-      "order": 67,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -1847,7 +1847,7 @@
         130
       ],
       "flags": {},
-      "order": 56,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -1900,7 +1900,7 @@
         106
       ],
       "flags": {},
-      "order": 89,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -1958,83 +1958,6 @@
       "widgets_values": []
     },
     {
-      "id": 140,
-      "type": "VHS_VideoCombine",
-      "pos": [
-        1033.2983559396584,
-        3565.081665411722
-      ],
-      "size": [
-        845.7131392034435,
-        802.142226561894
-      ],
-      "flags": {},
-      "order": 93,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 313
-        },
-        {
-          "name": "audio",
-          "shape": 7,
-          "type": "AUDIO",
-          "link": 416
-        },
-        {
-          "name": "meta_batch",
-          "shape": 7,
-          "type": "VHS_BatchManager",
-          "link": null
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Filenames",
-          "type": "VHS_FILENAMES",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-videohelpersuite",
-        "ver": "8923bd836bdab8b7bbdf4ed104b7d045e70c66e2",
-        "Node name for S&R": "VHS_VideoCombine"
-      },
-      "widgets_values": {
-        "frame_rate": 25,
-        "loop_count": 0,
-        "filename_prefix": "LTX-2",
-        "format": "video/h264-mp4",
-        "pix_fmt": "yuv420p",
-        "crf": 19,
-        "save_metadata": true,
-        "trim_to_audio": false,
-        "pingpong": false,
-        "save_output": true,
-        "videopreview": {
-          "hidden": false,
-          "paused": false,
-          "params": {
-            "filename": "LTX-2_00162-audio.mp4",
-            "subfolder": "",
-            "type": "output",
-            "format": "video/h264-mp4",
-            "frame_rate": 25,
-            "workflow": "LTX-2_00162.png",
-            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00162-audio.mp4"
-          }
-        }
-      }
-    },
-    {
       "id": 118,
       "type": "LTXVLatentUpsampler",
       "pos": [
@@ -2046,7 +1969,7 @@
         81.02629601803119
       ],
       "flags": {},
-      "order": 83,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -2124,92 +2047,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 201,
-      "type": "LTXVAudioVAEDecode",
-      "pos": [
-        683.2494340700869,
-        4053.1619493929934
-      ],
-      "size": [
-        221.33970479161144,
-        46
-      ],
-      "flags": {},
-      "order": 92,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 430
-        },
-        {
-          "label": "Audio VAE",
-          "name": "audio_vae",
-          "type": "VAE",
-          "link": 448
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Audio",
-          "type": "AUDIO",
-          "links": [
-            416
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "LTXVAudioVAEDecode",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 187,
-      "type": "INTConstant",
-      "pos": [
-        -1679.378175862445,
-        4448.518437007048
-      ],
-      "size": [
-        210,
-        58
-      ],
-      "flags": {},
-      "order": 24,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "INT",
-          "links": [
-            402
-          ]
-        }
-      ],
-      "title": "LENGTH (frames)",
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "c6ce76d00bb8177d1b0286cad891df08eff5226e",
-        "Node name for S&R": "INTConstant"
-      },
-      "widgets_values": [
-        121
-      ],
-      "color": "#1b4669",
-      "bgcolor": "#29699c"
-    },
-    {
       "id": 255,
       "type": "UNETLoader",
       "pos": [
@@ -2223,7 +2060,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 25,
+      "order": 24,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2261,7 +2098,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2397,7 +2234,7 @@
         73.68133072539695
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2435,7 +2272,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 76,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -2476,7 +2313,7 @@
         46
       ],
       "flags": {},
-      "order": 77,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -2530,7 +2367,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2564,7 +2401,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2596,7 +2433,7 @@
         46
       ],
       "flags": {},
-      "order": 85,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -2645,7 +2482,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 88,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -2685,7 +2522,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2715,7 +2552,7 @@
         71.66026910730216
       ],
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2757,7 +2594,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2795,7 +2632,7 @@
         58.01664226661978
       ],
       "flags": {},
-      "order": 82,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -2907,7 +2744,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2941,7 +2778,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3015,104 +2852,6 @@
       ]
     },
     {
-      "id": 274,
-      "type": "TrimAudioDuration",
-      "pos": [
-        -1040.517802492003,
-        4786.371764690456
-      ],
-      "size": [
-        234.1038076399327,
-        82
-      ],
-      "flags": {},
-      "order": 69,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "link": 512
-        },
-        {
-          "name": "duration",
-          "type": "FLOAT",
-          "widget": {
-            "name": "duration"
-          },
-          "link": 513
-        }
-      ],
-      "outputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "links": [
-            500,
-            502
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "TrimAudioDuration",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        4,
-        8
-      ]
-    },
-    {
-      "id": 275,
-      "type": "LoadAudio",
-      "pos": [
-        -1402.6671379061017,
-        4766.979434100491
-      ],
-      "size": [
-        312.8514201610633,
-        136
-      ],
-      "flags": {},
-      "order": 35,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "links": [
-            512
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "LoadAudio",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "Ezekiel.wav",
-        null,
-        null
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)",
-      "ndSuperSelectorEnabled": false,
-      "ndPowerEnabled": false
-    },
-    {
       "id": 190,
       "type": "DualCLIPLoader",
       "pos": [
@@ -3126,7 +2865,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 36,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3165,7 +2904,7 @@
         111.14057719239463
       ],
       "flags": {},
-      "order": 37,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3206,7 +2945,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 38,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3232,7 +2971,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 39,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3266,7 +3005,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 87,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -3304,7 +3043,7 @@
         46
       ],
       "flags": {},
-      "order": 84,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -3355,7 +3094,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 40,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3387,7 +3126,7 @@
         86.66666666666667
       ],
       "flags": {},
-      "order": 66,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -3508,7 +3247,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 41,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3529,54 +3268,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 121,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -977.187428267698,
-        3587.4671352794294
-      ],
-      "size": [
-        403.5031737883653,
-        539.8915009392754
-      ],
-      "flags": {},
-      "order": 49,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 440
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            286
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "CLIPTextEncode",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "a cinematic video if the joker holding a speach, with his iconic makeup and red suit. With expressive face and gesticulating as he talks : \"The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men.\". \n\n\nBehind him is a tv studio in retro 70s style"
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 283,
       "type": "SetNode",
       "pos": [
@@ -3590,7 +3281,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 78,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -3628,7 +3319,7 @@
         120
       ],
       "flags": {},
-      "order": 70,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -3694,7 +3385,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 42,
+      "order": 40,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3773,7 +3464,7 @@
         58
       ],
       "flags": {},
-      "order": 43,
+      "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3813,7 +3504,7 @@
         58
       ],
       "flags": {},
-      "order": 44,
+      "order": 42,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3853,7 +3544,7 @@
         68.88020833333334
       ],
       "flags": {},
-      "order": 45,
+      "order": 43,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3895,7 +3586,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 46,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3928,7 +3619,7 @@
         106.66666666666667
       ],
       "flags": {},
-      "order": 51,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -4022,6 +3713,380 @@
         true,
         0.1
       ]
+    },
+    {
+      "id": 274,
+      "type": "TrimAudioDuration",
+      "pos": [
+        -1040.517802492003,
+        4786.371764690456
+      ],
+      "size": [
+        234.1038076399327,
+        82
+      ],
+      "flags": {},
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 512
+        },
+        {
+          "name": "duration",
+          "type": "FLOAT",
+          "widget": {
+            "name": "duration"
+          },
+          "link": 513
+        }
+      ],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            500,
+            502
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "TrimAudioDuration",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": 275,
+      "type": "LoadAudio",
+      "pos": [
+        -1402.6671379061017,
+        4766.979434100491
+      ],
+      "size": [
+        312.8514201610633,
+        136
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            512
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "LoadAudio",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Demon Slayer_ Kimetsu_01.wav",
+        null,
+        null
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)",
+      "ndSuperSelectorEnabled": false,
+      "ndPowerEnabled": false
+    },
+    {
+      "id": 187,
+      "type": "INTConstant",
+      "pos": [
+        -1679.378175862445,
+        4448.518437007048
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {},
+      "order": 46,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "INT",
+          "links": [
+            402
+          ]
+        }
+      ],
+      "title": "LENGTH (frames)",
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "c6ce76d00bb8177d1b0286cad891df08eff5226e",
+        "Node name for S&R": "INTConstant"
+      },
+      "widgets_values": [
+        251
+      ],
+      "color": "#1b4669",
+      "bgcolor": "#29699c"
+    },
+    {
+      "id": 121,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -977.187428267698,
+        3587.4671352794294
+      ],
+      "size": [
+        403.5031737883653,
+        539.8915009392754
+      ],
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 440
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            286
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "CLIPTextEncode",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "Vampirella Ella Normandy from Warren Publishing,beautiful charismatic girl,athletic body,gorgeous figure,interesting shapes,full body shot,atmosphere of horror and fear,in the style of horror films,in the style of jessica drossin,kitsch,life-size figures,catcore, .\n\nshe is singing a song "
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 284,
+      "type": "GetNode",
+      "pos": [
+        823.7001544042616,
+        3397.5157863740114
+      ],
+      "size": [
+        210,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 47,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            522
+          ]
+        }
+      ],
+      "title": "Get_org_audio",
+      "properties": {},
+      "widgets_values": [
+        "org_audio"
+      ]
+    },
+    {
+      "id": 201,
+      "type": "LTXVAudioVAEDecode",
+      "pos": [
+        683.2494340700869,
+        4053.1619493929934
+      ],
+      "size": [
+        221.33970479161144,
+        46
+      ],
+      "flags": {},
+      "order": 93,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 430
+        },
+        {
+          "label": "Audio VAE",
+          "name": "audio_vae",
+          "type": "VAE",
+          "link": 448
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Audio",
+          "type": "AUDIO",
+          "links": [
+            523
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "LTXVAudioVAEDecode",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 285,
+      "type": "Reroute",
+      "pos": [
+        874.0083269816876,
+        3448.3408731592117
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 95,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 523
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "AUDIO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 140,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        1033.2983559396584,
+        3565.081665411722
+      ],
+      "size": [
+        946.2775836478868,
+        991.4400043396699
+      ],
+      "flags": {},
+      "order": 94,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 313
+        },
+        {
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": 522
+        },
+        {
+          "name": "meta_batch",
+          "shape": 7,
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "8923bd836bdab8b7bbdf4ed104b7d045e70c66e2",
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "LTX-2",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": true,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": true,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "LTX-2_00244-audio.mp4",
+            "subfolder": "",
+            "type": "output",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "LTX-2_00244.png",
+            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00244-audio.mp4"
+          }
+        }
+      }
     }
   ],
   "links": [
@@ -4184,14 +4249,6 @@
       193,
       0,
       "INT"
-    ],
-    [
-      416,
-      201,
-      0,
-      140,
-      1,
-      "AUDIO"
     ],
     [
       424,
@@ -4664,6 +4721,22 @@
       283,
       0,
       "LATENT"
+    ],
+    [
+      522,
+      284,
+      0,
+      140,
+      1,
+      "AUDIO"
+    ],
+    [
+      523,
+      201,
+      0,
+      285,
+      0,
+      "AUDIO"
     ]
   ],
   "groups": [
@@ -4775,10 +4848,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.33809166040571,
+      "scale": 0.19084392826762028,
       "offset": [
-        2390.8905098466407,
-        -3094.25479733713
+        4375.884872513543,
+        -2108.2748546867365
       ]
     },
     "frontendVersion": "1.36.14",
