@@ -33,6 +33,10 @@ https://www.reddit.com/r/StableDiffusion/comments/1qeovkh/ltx2_cinematic_love_le
 
 -- -- 
 
+A general guide:
+https://docs.ltx.video/open-source-model/integration-tools/comfy-ui  
+
+
 
 More workflows:
 
