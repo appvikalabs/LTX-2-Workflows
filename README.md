@@ -42,7 +42,10 @@ More workflows:
 
 ComfyUI official workflows: https://docs.comfy.org/tutorials/video/ltx/ltx-2 
 
-LTX-Video official workflows:  https://github.com/Lightricks/ComfyUI-LTXVideo/tree/master/example_workflows  
+LTX-Video official workflows:  https://github.com/Lightricks/ComfyUI-LTXVideo/tree/master/example_workflows   
+
+
+Some really nice clean workflows here: https://comfyui.nomadoor.net/en/basic-workflows/ltx-2/  
 
 
 RunComfy (can download workflow to use locally): 
