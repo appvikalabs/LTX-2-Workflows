@@ -1,8 +1,8 @@
 {
   "id": "e4de5ab0-1a30-4953-9ac8-161f35a393ac",
   "revision": 0,
-  "last_node_id": 372,
-  "last_link_id": 719,
+  "last_node_id": 375,
+  "last_link_id": 726,
   "nodes": [
     {
       "id": 192,
@@ -637,9 +637,7 @@
         "ver": "0.7.0",
         "Node name for S&R": "GetImageSize"
       },
-      "widgets_values": [
-        "width: 640, height: 352\n batch size: 1"
-      ]
+      "widgets_values": []
     },
     {
       "id": 271,
@@ -941,7 +939,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 92,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -965,116 +963,6 @@
         "model"
       ],
       "color": "#1f1f48",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
-      "id": 276,
-      "type": "Power Lora Loader (rgthree)",
-      "pos": [
-        -359.8489725985419,
-        3564.6830961067226
-      ],
-      "size": [
-        405.8309551043625,
-        310
-      ],
-      "flags": {},
-      "order": 86,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "model",
-          "type": "MODEL",
-          "link": 679
-        },
-        {
-          "dir": 3,
-          "name": "clip",
-          "type": "CLIP",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "MODEL",
-          "shape": 3,
-          "type": "MODEL",
-          "links": [
-            619
-          ]
-        },
-        {
-          "dir": 4,
-          "name": "CLIP",
-          "shape": 3,
-          "type": "CLIP",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
-        "Show Strengths": "Single Strength"
-      },
-      "widgets_values": [
-        {},
-        {
-          "type": "PowerLoraLoaderHeaderWidget"
-        },
-        {
-          "on": false,
-          "lora": "LTX\\v2\\ltx-2-19b-ic-lora-detailer.safetensors",
-          "strength": 0.6,
-          "strengthTwo": null
-        },
-        {
-          "on": false,
-          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-dolly-in.safetensors",
-          "strength": 1,
-          "strengthTwo": null
-        },
-        {
-          "on": false,
-          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-dolly-left.safetensors",
-          "strength": 1,
-          "strengthTwo": null
-        },
-        {
-          "on": false,
-          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-dolly-out.safetensors",
-          "strength": 1,
-          "strengthTwo": null
-        },
-        {
-          "on": false,
-          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-dolly-right.safetensors",
-          "strength": 1,
-          "strengthTwo": null
-        },
-        {
-          "on": false,
-          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-jib-down.safetensors",
-          "strength": 1,
-          "strengthTwo": null
-        },
-        {
-          "on": false,
-          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-jib-up.safetensors",
-          "strength": 1,
-          "strengthTwo": null
-        },
-        {
-          "on": false,
-          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-static.safetensors",
-          "strength": 1,
-          "strengthTwo": null
-        },
-        {},
-        ""
-      ],
-      "color": "#006691",
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
@@ -1191,7 +1079,7 @@
         150
       ],
       "flags": {},
-      "order": 101,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -1889,8 +1777,7 @@
         "0, 0, 0",
         "left",
         32,
-        "cpu",
-        "<tr><td>Output: </td><td><b>1</b> x <b>1280</b> x <b>704 | 10.31MB</b></td></tr>"
+        "cpu"
       ]
     },
     {
@@ -2085,7 +1972,7 @@
           "name": "MODEL",
           "type": "MODEL",
           "links": [
-            622
+            724
           ]
         }
       ],
@@ -2374,45 +2261,6 @@
       ]
     },
     {
-      "id": 354,
-      "type": "LTX2AudioLatentNormalizingSampling",
-      "pos": [
-        528.1995048537186,
-        3730.963220111126
-      ],
-      "size": [
-        316.7017578125,
-        58
-      ],
-      "flags": {},
-      "order": 60,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 680
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            682
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "17282f9cff7c4f7d3c50fcea5061fad4d87d6aea",
-        "Node name for S&R": "LTX2AudioLatentNormalizingSampling"
-      },
-      "widgets_values": [
-        "1,1,0.25,1,1,0.25,1,1"
-      ]
-    },
-    {
       "id": 317,
       "type": "SamplerCustomAdvanced",
       "pos": [
@@ -2560,7 +2408,7 @@
         46
       ],
       "flags": {},
-      "order": 98,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -2643,7 +2491,7 @@
         81.02629601803119
       ],
       "flags": {},
-      "order": 96,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -2698,7 +2546,7 @@
         122
       ],
       "flags": {},
-      "order": 97,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -2804,7 +2652,7 @@
         46
       ],
       "flags": {},
-      "order": 95,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -2855,7 +2703,7 @@
         311.7733970274461
       ],
       "flags": {},
-      "order": 99,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -2958,7 +2806,7 @@
         46
       ],
       "flags": {},
-      "order": 102,
+      "order": 104,
       "mode": 0,
       "inputs": [
         {
@@ -3008,7 +2856,7 @@
         46
       ],
       "flags": {},
-      "order": 100,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -3340,7 +3188,7 @@
         666.6110138952347
       ],
       "flags": {},
-      "order": 103,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -3402,13 +3250,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "LTX-2_00431-audio.mp4",
+            "filename": "LTX-2_00436-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 24,
-            "workflow": "LTX-2_00431.png",
-            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00431-audio.mp4"
+            "workflow": "LTX-2_00436.png",
+            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00436-audio.mp4"
           }
         }
       }
@@ -3483,46 +3331,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 333,
-      "type": "KSamplerSelect",
-      "pos": [
-        524.0600293666577,
-        3979.688420569951
-      ],
-      "size": [
-        316.7017578125,
-        68.88020833333334
-      ],
-      "flags": {},
-      "order": 36,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            633
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "KSamplerSelect",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "euler"
-      ]
-    },
-    {
       "id": 318,
       "type": "CFGGuider",
       "pos": [
@@ -3579,105 +3387,6 @@
       ],
       "color": "#008181",
       "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
-      "id": 365,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        1368.5472108230226,
-        4437.677734017779
-      ],
-      "size": [
-        385.0669921875,
-        84.82731745581623
-      ],
-      "flags": {},
-      "order": 68,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 709
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            710
-          ]
-        }
-      ],
-      "title": "Enable IF using DEV model without this lora at step 1",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "models": [
-          {
-            "name": "ltx-2-19b-distilled-lora-384.safetensors",
-            "url": "https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-lora-384.safetensors",
-            "directory": "loras"
-          }
-        ]
-      },
-      "widgets_values": [
-        "LTX\\v2\\ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_bf16.safetensors",
-        0.6
-      ],
-      "color": "#1f1f48",
-      "bgcolor": "rgba(24,24,27,.9)",
-      "ndSuperSelectorEnabled": false,
-      "ndPowerEnabled": false
-    },
-    {
-      "id": 309,
-      "type": "KSamplerSelect",
-      "pos": [
-        1638.5470595958775,
-        3839.303934871681
-      ],
-      "size": [
-        316.7017578125,
-        58
-      ],
-      "flags": {},
-      "order": 37,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            644
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "euler"
-      ]
     },
     {
       "id": 359,
@@ -3742,7 +3451,7 @@
         58
       ],
       "flags": {},
-      "order": 38,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3771,47 +3480,6 @@
       ]
     },
     {
-      "id": 207,
-      "type": "LTXVChunkFeedForward",
-      "pos": [
-        -1421.4442081104912,
-        3352.0240782461356
-      ],
-      "size": [
-        360.56028831698825,
-        85.1100492013984
-      ],
-      "flags": {},
-      "order": 77,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 622
-        }
-      ],
-      "outputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "links": [
-            679
-          ]
-        }
-      ],
-      "title": "LTXV Chunk FeedForward (optional)",
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "4cb4ede5c3a4cebc14bb63b49b62f03cd16d44a5",
-        "Node name for S&R": "LTXVChunkFeedForward"
-      },
-      "widgets_values": [
-        4,
-        4096
-      ]
-    },
-    {
       "id": 284,
       "type": "PrimitiveFloat",
       "pos": [
@@ -3823,7 +3491,7 @@
         61.42105412153796
       ],
       "flags": {},
-      "order": 39,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3955,7 +3623,7 @@
         58
       ],
       "flags": {},
-      "order": 40,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3980,59 +3648,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 335,
-      "type": "LTXVScheduler",
-      "pos": [
-        531.6587265357391,
-        4261.539437201429
-      ],
-      "size": [
-        316.7017578125,
-        171.71352573079776
-      ],
-      "flags": {},
-      "order": 62,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "latent",
-          "shape": 7,
-          "type": "LATENT",
-          "link": 655
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            634
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "LTXVScheduler",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        10,
-        2.05,
-        0.95,
-        true,
-        0.1
-      ],
-      "color": "#008181",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 197,
       "type": "UnetLoaderGGUF",
       "pos": [
@@ -4046,7 +3661,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 41,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4123,7 +3738,7 @@
         61.42705146159551
       ],
       "flags": {},
-      "order": 42,
+      "order": 40,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4161,7 +3776,7 @@
         108.00311157930264
       ],
       "flags": {},
-      "order": 43,
+      "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4203,7 +3818,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 44,
+      "order": 42,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4214,60 +3829,6 @@
       ],
       "color": "#222",
       "bgcolor": "#000"
-    },
-    {
-      "id": 357,
-      "type": "LTX2_NAG",
-      "pos": [
-        927.7154383394625,
-        4374.016560224084
-      ],
-      "size": [
-        316.7017578125,
-        170
-      ],
-      "flags": {},
-      "order": 82,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 685
-        },
-        {
-          "name": "nag_cond_video",
-          "shape": 7,
-          "type": "CONDITIONING",
-          "link": 687
-        },
-        {
-          "name": "nag_cond_audio",
-          "shape": 7,
-          "type": "CONDITIONING",
-          "link": 688
-        }
-      ],
-      "outputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "links": [
-            719
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "17282f9cff7c4f7d3c50fcea5061fad4d87d6aea",
-        "Node name for S&R": "LTX2_NAG"
-      },
-      "widgets_values": [
-        11,
-        0.25,
-        2.5,
-        true
-      ]
     },
     {
       "id": 331,
@@ -4281,7 +3842,7 @@
         82
       ],
       "flags": {},
-      "order": 45,
+      "order": 43,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4306,7 +3867,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        607571008253251,
+        287707853417587,
         "randomize"
       ],
       "color": "#008181",
@@ -4324,7 +3885,7 @@
         82
       ],
       "flags": {},
-      "order": 46,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4349,16 +3910,202 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        187515217726971,
+        806375962399065,
         "randomize"
       ]
+    },
+    {
+      "id": 309,
+      "type": "KSamplerSelect",
+      "pos": [
+        1638.5470595958775,
+        3839.303934871681
+      ],
+      "size": [
+        316.7017578125,
+        58
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            644
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "lcm"
+      ]
+    },
+    {
+      "id": 276,
+      "type": "Power Lora Loader (rgthree)",
+      "pos": [
+        -359.8489725985419,
+        3564.6830961067226
+      ],
+      "size": [
+        405.8309551043625,
+        310
+      ],
+      "flags": {},
+      "order": 95,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "model",
+          "type": "MODEL",
+          "link": 726
+        },
+        {
+          "dir": 3,
+          "name": "clip",
+          "type": "CLIP",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "MODEL",
+          "shape": 3,
+          "type": "MODEL",
+          "links": [
+            619
+          ]
+        },
+        {
+          "dir": 4,
+          "name": "CLIP",
+          "shape": 3,
+          "type": "CLIP",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
+        "Show Strengths": "Single Strength"
+      },
+      "widgets_values": [
+        {},
+        {
+          "type": "PowerLoraLoaderHeaderWidget"
+        },
+        {
+          "on": false,
+          "lora": "LTX\\v2\\ltx-2-19b-ic-lora-detailer.safetensors",
+          "strength": 0.6,
+          "strengthTwo": null
+        },
+        {
+          "on": false,
+          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-dolly-in.safetensors",
+          "strength": 1,
+          "strengthTwo": null
+        },
+        {
+          "on": false,
+          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-dolly-left.safetensors",
+          "strength": 1,
+          "strengthTwo": null
+        },
+        {
+          "on": false,
+          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-dolly-out.safetensors",
+          "strength": 1,
+          "strengthTwo": null
+        },
+        {
+          "on": false,
+          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-dolly-right.safetensors",
+          "strength": 1,
+          "strengthTwo": null
+        },
+        {
+          "on": false,
+          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-jib-down.safetensors",
+          "strength": 1,
+          "strengthTwo": null
+        },
+        {
+          "on": false,
+          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-jib-up.safetensors",
+          "strength": 1,
+          "strengthTwo": null
+        },
+        {
+          "on": false,
+          "lora": "LTX\\v2\\ltx-2-19b-lora-camera-control-static.safetensors",
+          "strength": 1,
+          "strengthTwo": null
+        },
+        {},
+        ""
+      ],
+      "color": "#006691",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 374,
+      "type": "LTX2MemoryEfficientSageAttentionPatch",
+      "pos": [
+        -1394.553086195391,
+        3334.68322372386
+      ],
+      "size": [
+        275.179296875,
+        26
+      ],
+      "flags": {},
+      "order": 77,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 724
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            722
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "71578cf49e48978cf1c6714494b669b1e571777b",
+        "Node name for S&R": "LTX2MemoryEfficientSageAttentionPatch"
+      }
     },
     {
       "id": 362,
       "type": "GetNode",
       "pos": [
-        1357.8516083447398,
-        4319.5678045018285
+        1357.85160834474,
+        4389.0255699997215
       ],
       "size": [
         316.7017578125,
@@ -4367,7 +4114,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 47,
+      "order": 46,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4388,14 +4135,323 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 363,
-      "type": "LTX2_NAG",
+      "id": 375,
+      "type": "LTX2AttentionTunerPatch",
       "pos": [
-        1828.8600608396705,
-        4399.065663842295
+        -1058.3661147144269,
+        3295.0119998857144
+      ],
+      "size": [
+        242.78914741654467,
+        155.140351373846
+      ],
+      "flags": {},
+      "order": 86,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 722
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            725
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "71578cf49e48978cf1c6714494b669b1e571777b",
+        "Node name for S&R": "LTX2AttentionTunerPatch"
+      },
+      "widgets_values": [
+        "",
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 207,
+      "type": "LTXVChunkFeedForward",
+      "pos": [
+        -764.8540937222635,
+        3326.562900142863
+      ],
+      "size": [
+        295.5602600077674,
+        82
+      ],
+      "flags": {},
+      "order": 92,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 725
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            726
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "4cb4ede5c3a4cebc14bb63b49b62f03cd16d44a5",
+        "Node name for S&R": "LTXVChunkFeedForward"
+      },
+      "widgets_values": [
+        4,
+        4096
+      ]
+    },
+    {
+      "id": 354,
+      "type": "LTX2AudioLatentNormalizingSampling",
+      "pos": [
+        528.1995048537186,
+        3730.963220111126
       ],
       "size": [
         316.7017578125,
+        58
+      ],
+      "flags": {},
+      "order": 60,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 680
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            682
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "17282f9cff7c4f7d3c50fcea5061fad4d87d6aea",
+        "Node name for S&R": "LTX2AudioLatentNormalizingSampling"
+      },
+      "widgets_values": [
+        "1,1,0.25,1,1,0.25,1,1"
+      ]
+    },
+    {
+      "id": 333,
+      "type": "KSamplerSelect",
+      "pos": [
+        525.0967124337903,
+        3973.468322167155
+      ],
+      "size": [
+        316.7017578125,
+        68.88020833333334
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            633
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "KSamplerSelect",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "lcm"
+      ]
+    },
+    {
+      "id": 335,
+      "type": "LTXVScheduler",
+      "pos": [
+        531.6587265357391,
+        4253.2459726643665
+      ],
+      "size": [
+        316.7017578125,
+        171.71352573079776
+      ],
+      "flags": {},
+      "order": 62,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT",
+          "link": 655
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            634
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "LTXVScheduler",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        10,
+        2.05,
+        0.95,
+        true,
+        0.1
+      ],
+      "color": "#008181",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 358,
+      "type": "GetNode",
+      "pos": [
+        1007.7087933437192,
+        4350.977981597741
+      ],
+      "size": [
+        316.7017578125,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 48,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            687,
+            688
+          ]
+        }
+      ],
+      "title": "Get_negative",
+      "properties": {},
+      "widgets_values": [
+        "negative"
+      ],
+      "color": "#38291f",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 365,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        1368.5472108230226,
+        4490.202986543031
+      ],
+      "size": [
+        341.761328125,
+        82
+      ],
+      "flags": {},
+      "order": 68,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 709
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            710
+          ]
+        }
+      ],
+      "title": "Enable if DEV model without this lora at step 1",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "LoraLoaderModelOnly",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "models": [
+          {
+            "name": "ltx-2-19b-distilled-lora-384.safetensors",
+            "url": "https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-lora-384.safetensors",
+            "directory": "loras"
+          }
+        ]
+      },
+      "widgets_values": [
+        "LTX\\v2\\ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_bf16.safetensors",
+        0.6
+      ],
+      "color": "#1f1f48",
+      "bgcolor": "rgba(24,24,27,.9)",
+      "ndSuperSelectorEnabled": false,
+      "ndPowerEnabled": false
+    },
+    {
+      "id": 363,
+      "type": "LTX2_NAG",
+      "pos": [
+        1772.7469200183732,
+        4395.882022667289
+      ],
+      "size": [
+        210,
         170
       ],
       "flags": {},
@@ -4445,8 +4501,8 @@
       "id": 364,
       "type": "GetNode",
       "pos": [
-        1875.777324516811,
-        4350.297116141603
+        1783.6801433487594,
+        4351.397289293592
       ],
       "size": [
         316.7017578125,
@@ -4455,7 +4511,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 48,
+      "order": 49,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4477,39 +4533,58 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 358,
-      "type": "GetNode",
+      "id": 357,
+      "type": "LTX2_NAG",
       "pos": [
-        987.2715782908247,
-        4328.46577642771
+        994.0305913087392,
+        4396.839770314258
       ],
       "size": [
-        316.7017578125,
-        60
+        210,
+        170
       ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 49,
+      "flags": {},
+      "order": 82,
       "mode": 4,
-      "inputs": [],
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 685
+        },
+        {
+          "name": "nag_cond_video",
+          "shape": 7,
+          "type": "CONDITIONING",
+          "link": 687
+        },
+        {
+          "name": "nag_cond_audio",
+          "shape": 7,
+          "type": "CONDITIONING",
+          "link": 688
+        }
+      ],
       "outputs": [
         {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
+          "name": "model",
+          "type": "MODEL",
           "links": [
-            687,
-            688
+            719
           ]
         }
       ],
-      "title": "Get_negative",
-      "properties": {},
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "17282f9cff7c4f7d3c50fcea5061fad4d87d6aea",
+        "Node name for S&R": "LTX2_NAG"
+      },
       "widgets_values": [
-        "negative"
-      ],
-      "color": "#38291f",
-      "bgcolor": "rgba(24,24,27,.9)"
+        11,
+        0.25,
+        2.5,
+        true
+      ]
     }
   ],
   "links": [
@@ -4742,14 +4817,6 @@
       276,
       0,
       282,
-      0,
-      "MODEL"
-    ],
-    [
-      622,
-      134,
-      0,
-      207,
       0,
       "MODEL"
     ],
@@ -5114,14 +5181,6 @@
       "INT"
     ],
     [
-      679,
-      207,
-      0,
-      276,
-      0,
-      "MODEL"
-    ],
-    [
       680,
       312,
       0,
@@ -5256,6 +5315,38 @@
       318,
       0,
       "MODEL"
+    ],
+    [
+      722,
+      374,
+      0,
+      375,
+      0,
+      "MODEL"
+    ],
+    [
+      724,
+      134,
+      0,
+      374,
+      0,
+      "MODEL"
+    ],
+    [
+      725,
+      375,
+      0,
+      207,
+      0,
+      "MODEL"
+    ],
+    [
+      726,
+      207,
+      0,
+      276,
+      0,
+      "MODEL"
     ]
   ],
   "groups": [
@@ -5341,10 +5432,10 @@
       "id": 27,
       "title": "Performance (experimental)",
       "bounding": [
-        -1447.4924661497498,
-        3278.3239429553146,
-        414.47148196696685,
-        176.2990875943433
+        -1439.7380768075966,
+        3202.946717144096,
+        1006.1998098556463,
+        261.597370358023
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -5393,10 +5484,10 @@
       "id": 31,
       "title": "NAG - optional",
       "bounding": [
-        914.4726878093841,
-        4237.147937108513,
-        343.7194839197708,
-        347.02798496172545
+        978.2432550684255,
+        4265.361899147774,
+        245.6492657690169,
+        322.66593288410695
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -5406,10 +5497,10 @@
       "id": 32,
       "title": "NAG - optional",
       "bounding": [
-        1811.1478146433199,
-        4267.950840786695,
-        344.8636900753718,
-        321.19406719454037
+        1755.0346738220226,
+        4264.767199611689,
+        250.61977488148955,
+        314.33996427134934
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -5417,12 +5508,12 @@
     },
     {
       "id": 33,
-      "title": "Distilled lora",
+      "title": "Distilled lora (if Dev model)",
       "bounding": [
         1358.5472108230226,
-        4364.077734017778,
-        405.0669921875001,
-        168.42731745581622
+        4416.602986543031,
+        363.57237029684643,
+        168.4273174558166
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -5432,10 +5523,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.23092115320382406,
+      "scale": 0.25401326852420847,
       "offset": [
-        2459.131017470256,
-        -2086.4148285602787
+        2597.1203730046054,
+        -2149.9737725906944
       ]
     },
     "frontendVersion": "1.37.11",
