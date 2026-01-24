@@ -19,11 +19,11 @@ https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/
 
 Needed nodes:
 
-https://github.com/kijai/ComfyUI-KJNodes  (NB! Must be up to date for LTX-2 support)
++ https://github.com/kijai/ComfyUI-KJNodes  (NB! Must be up to date for LTX-2 support)
 
-https://github.com/city96/ComfyUI-GGUF (NB! Must be up to date for LTX-2 support)
++ https://github.com/city96/ComfyUI-GGUF (NB! Must be up to date for LTX-2 support)
 
-+ ComfyUI itself must be updatede to very latest
++ ComfyUI itself must be updated to very latest
 
 <video src="https://cdn-uploads.huggingface.co/production/uploads/64afc36a09727d75e9ca79aa/442uH7jw-TrAfxGs5TU_9.mp4" controls autoplay loop muted width="100%"></video>
 
