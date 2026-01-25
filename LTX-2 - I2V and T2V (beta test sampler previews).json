@@ -1,8 +1,8 @@
 {
   "id": "e4de5ab0-1a30-4953-9ac8-161f35a393ac",
   "revision": 0,
-  "last_node_id": 378,
-  "last_link_id": 727,
+  "last_node_id": 381,
+  "last_link_id": 731,
   "nodes": [
     {
       "id": 192,
@@ -18,7 +18,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 60,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -58,7 +58,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 59,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -98,7 +98,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 54,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -138,7 +138,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 68,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -213,7 +213,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 80,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -253,7 +253,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 81,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -361,7 +361,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 84,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -401,7 +401,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 92,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -441,7 +441,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 91,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -481,7 +481,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 75,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -522,7 +522,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 86,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -560,7 +560,7 @@
         106
       ],
       "flags": {},
-      "order": 76,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -602,7 +602,7 @@
         136
       ],
       "flags": {},
-      "order": 85,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -655,7 +655,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 53,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -695,7 +695,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 64,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -873,7 +873,7 @@
         86.66666666666667
       ],
       "flags": {},
-      "order": 70,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -941,7 +941,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 98,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -1081,7 +1081,7 @@
         150
       ],
       "flags": {},
-      "order": 104,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -1231,7 +1231,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 71,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -1269,7 +1269,7 @@
         120
       ],
       "flags": {},
-      "order": 55,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -1315,64 +1315,6 @@
       ]
     },
     {
-      "id": 344,
-      "type": "LTXVImgToVideoInplace",
-      "pos": [
-        149.191371464895,
-        4199.620368692658
-      ],
-      "size": [
-        270,
-        122
-      ],
-      "flags": {},
-      "order": 72,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 667
-        },
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 668
-        },
-        {
-          "name": "latent",
-          "type": "LATENT",
-          "link": 669
-        },
-        {
-          "name": "bypass",
-          "type": "BOOLEAN",
-          "widget": {
-            "name": "bypass"
-          },
-          "link": 727
-        }
-      ],
-      "outputs": [
-        {
-          "name": "latent",
-          "type": "LATENT",
-          "links": [
-            671
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "LTXVImgToVideoInplace"
-      },
-      "widgets_values": [
-        1,
-        false
-      ]
-    },
-    {
       "id": 345,
       "type": "SetNode",
       "pos": [
@@ -1386,7 +1328,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 89,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -1424,7 +1366,7 @@
         46
       ],
       "flags": {},
-      "order": 82,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -1578,7 +1520,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 73,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -1650,7 +1592,7 @@
         146.66666666666669
       ],
       "flags": {},
-      "order": 56,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -1718,7 +1660,7 @@
         348
       ],
       "flags": {},
-      "order": 62,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -1843,7 +1785,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 58,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -1969,7 +1911,7 @@
         82
       ],
       "flags": {},
-      "order": 66,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -2232,7 +2174,7 @@
         98
       ],
       "flags": {},
-      "order": 74,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -2283,7 +2225,7 @@
         310.186561480823
       ],
       "flags": {},
-      "order": 95,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -2419,7 +2361,7 @@
         46
       ],
       "flags": {},
-      "order": 101,
+      "order": 104,
       "mode": 0,
       "inputs": [
         {
@@ -2502,7 +2444,7 @@
         81.02629601803119
       ],
       "flags": {},
-      "order": 99,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -2546,56 +2488,6 @@
       "widgets_values": []
     },
     {
-      "id": 338,
-      "type": "LTXVImgToVideoInplace",
-      "pos": [
-        1353.297918579735,
-        3806.31938805228
-      ],
-      "size": [
-        258.01976020894085,
-        122
-      ],
-      "flags": {},
-      "order": 100,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 658
-        },
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 659
-        },
-        {
-          "name": "latent",
-          "type": "LATENT",
-          "link": 660
-        }
-      ],
-      "outputs": [
-        {
-          "name": "latent",
-          "type": "LATENT",
-          "links": [
-            656
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "LTXVImgToVideoInplace"
-      },
-      "widgets_values": [
-        1,
-        false
-      ]
-    },
-    {
       "id": 325,
       "type": "CFGGuider",
       "pos": [
@@ -2607,7 +2499,7 @@
         98
       ],
       "flags": {},
-      "order": 94,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -2663,7 +2555,7 @@
         46
       ],
       "flags": {},
-      "order": 97,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -2714,7 +2606,7 @@
         311.7733970274461
       ],
       "flags": {},
-      "order": 102,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -2817,7 +2709,7 @@
         46
       ],
       "flags": {},
-      "order": 105,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
@@ -2867,7 +2759,7 @@
         46
       ],
       "flags": {},
-      "order": 103,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -2961,7 +2853,7 @@
         299.211220678088
       ],
       "flags": {},
-      "order": 51,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -3077,7 +2969,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 57,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -3117,7 +3009,7 @@
         176.42403565656787
       ],
       "flags": {},
-      "order": 52,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -3268,7 +3160,7 @@
         106.66666666666667
       ],
       "flags": {},
-      "order": 90,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -3326,7 +3218,7 @@
         98
       ],
       "flags": {},
-      "order": 79,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -3456,7 +3348,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 77,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -3496,7 +3388,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 65,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -3626,7 +3518,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -3767,7 +3659,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        955456899195189,
+        180833626071480,
         "randomize"
       ],
       "color": "#008181",
@@ -3810,7 +3702,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        765557626524796,
+        410669689228525,
         "randomize"
       ]
     },
@@ -3866,7 +3758,7 @@
         310
       ],
       "flags": {},
-      "order": 96,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -3976,7 +3868,7 @@
         26
       ],
       "flags": {},
-      "order": 78,
+      "order": 81,
       "mode": 4,
       "inputs": [
         {
@@ -4047,7 +3939,7 @@
         155.140351373846
       ],
       "flags": {},
-      "order": 87,
+      "order": 90,
       "mode": 4,
       "inputs": [
         {
@@ -4090,7 +3982,7 @@
         82
       ],
       "flags": {},
-      "order": 93,
+      "order": 96,
       "mode": 4,
       "inputs": [
         {
@@ -4130,7 +4022,7 @@
         58
       ],
       "flags": {},
-      "order": 61,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -4209,7 +4101,7 @@
         171.71352573079776
       ],
       "flags": {},
-      "order": 63,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -4297,7 +4189,7 @@
         82
       ],
       "flags": {},
-      "order": 69,
+      "order": 71,
       "mode": 4,
       "inputs": [
         {
@@ -4356,7 +4248,7 @@
         170
       ],
       "flags": {},
-      "order": 88,
+      "order": 91,
       "mode": 4,
       "inputs": [
         {
@@ -4445,7 +4337,7 @@
         170
       ],
       "flags": {},
-      "order": 83,
+      "order": 86,
       "mode": 4,
       "inputs": [
         {
@@ -4499,7 +4391,7 @@
         666.6110138952347
       ],
       "flags": {},
-      "order": 106,
+      "order": 109,
       "mode": 0,
       "inputs": [
         {
@@ -4561,13 +4453,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "LTX-2_00436-audio.mp4",
+            "filename": "LTX-2_00490-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 24,
-            "workflow": "LTX-2_00436.png",
-            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00436-audio.mp4"
+            "workflow": "LTX-2_00490.png",
+            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00490-audio.mp4"
           }
         }
       }
@@ -4599,11 +4491,49 @@
       "bgcolor": "#000"
     },
     {
+      "id": 379,
+      "type": "SetNode",
+      "pos": [
+        -302.3972417217856,
+        4798.117971659629
+      ],
+      "size": [
+        210,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 72,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "link": 729
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "Set_t2v_mode",
+      "properties": {
+        "previousName": "t2v_mode"
+      },
+      "widgets_values": [
+        "t2v_mode"
+      ]
+    },
+    {
       "id": 376,
       "type": "PrimitiveBoolean",
       "pos": [
-        -371.72115171822975,
-        4768.562895669064
+        -370.4667652069992,
+        4762.290963112907
       ],
       "size": [
         282.51029338612364,
@@ -4618,7 +4548,7 @@
           "name": "BOOLEAN",
           "type": "BOOLEAN",
           "links": [
-            727
+            729
           ]
         }
       ],
@@ -4633,6 +4563,186 @@
       ],
       "color": "#008181",
       "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 380,
+      "type": "GetNode",
+      "pos": [
+        215.66438741645715,
+        4273.784409965231
+      ],
+      "size": [
+        210,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 51,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "links": [
+            730
+          ]
+        }
+      ],
+      "title": "Get_t2v_mode",
+      "properties": {},
+      "widgets_values": [
+        "t2v_mode"
+      ]
+    },
+    {
+      "id": 344,
+      "type": "LTXVImgToVideoInplace",
+      "pos": [
+        149.191371464895,
+        4199.620368692658
+      ],
+      "size": [
+        270,
+        122
+      ],
+      "flags": {},
+      "order": 75,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 667
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 668
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": 669
+        },
+        {
+          "name": "bypass",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "bypass"
+          },
+          "link": 730
+        }
+      ],
+      "outputs": [
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "links": [
+            671
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "LTXVImgToVideoInplace"
+      },
+      "widgets_values": [
+        1,
+        false
+      ]
+    },
+    {
+      "id": 381,
+      "type": "GetNode",
+      "pos": [
+        1422.3842112203054,
+        3849.2929961468226
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 52,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "links": [
+            731
+          ]
+        }
+      ],
+      "title": "Get_t2v_mode",
+      "properties": {},
+      "widgets_values": [
+        "t2v_mode"
+      ]
+    },
+    {
+      "id": 338,
+      "type": "LTXVImgToVideoInplace",
+      "pos": [
+        1353.297918579735,
+        3806.31938805228
+      ],
+      "size": [
+        258.01976020894085,
+        122
+      ],
+      "flags": {},
+      "order": 103,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 658
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 659
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": 660
+        },
+        {
+          "name": "bypass",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "bypass"
+          },
+          "link": 731
+        }
+      ],
+      "outputs": [
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "links": [
+            656
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "LTXVImgToVideoInplace"
+      },
+      "widgets_values": [
+        1,
+        false
+      ]
     }
   ],
   "links": [
@@ -5397,10 +5507,26 @@
       "MODEL"
     ],
     [
-      727,
+      729,
       376,
       0,
+      379,
+      0,
+      "BOOLEAN"
+    ],
+    [
+      730,
+      380,
+      0,
       344,
+      3,
+      "BOOLEAN"
+    ],
+    [
+      731,
+      381,
+      0,
+      338,
       3,
       "BOOLEAN"
     ]
@@ -5592,10 +5718,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.45000000000000123,
+      "scale": 0.20992832109438064,
       "offset": [
-        716.1020507893631,
-        -2919.583225816388
+        3026.5369728898027,
+        -1812.1899515426012
       ]
     },
     "frontendVersion": "1.37.11",
